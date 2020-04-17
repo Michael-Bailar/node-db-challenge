@@ -62,12 +62,12 @@ Complete the following tasks:
   - [x] when adding a `task` the client must provide a description, the notes are optional.
   - [x] when adding a `task` the client must provide the `id` of an existing project.
   - [x] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
-- [ ] Build an API with endpoints for:
-  - [ ] adding resources.
+- [x] Build an API with endpoints for:
+  - [x] adding resources.
   - [x] retrieving a list of resources.
-  - [ ] adding projects.
+  - [x] adding projects.
   - [x] retrieving a list of projects.
-  - [ ] adding tasks.
+  - [x] adding tasks.
   - [x] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
@@ -146,3 +146,6 @@ A `context` can be applied to more than one `task`. An task can be tied to more 
 When retrieving an `task` by _id_, add a property that lists all the `contexts` related to that task.
 
 _Good luck and have fun!_
+
+
+PROJECT LOCATION https://github.com/Michael-Bailar/node-db-challenge
